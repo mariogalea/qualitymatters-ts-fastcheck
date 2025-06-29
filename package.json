@@ -1,0 +1,30 @@
+{
+  "name": "qualitymatters-ts-fastcheck",
+  "version": "1.0.0",
+  "description": "Property Based Testing POC using Fastcheck with Tyepscript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariogalea/qualitymatters-ts-fastcheck.git"
+  },
+  "author": "Mario Galea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariogalea/qualitymatters-ts-fastcheck/issues"
+  },
+  "homepage": "https://github.com/mariogalea/qualitymatters-ts-fastcheck#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "fast-check": "^4.1.1",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "node-fetch": "^3.3.2"
+  }
+}
