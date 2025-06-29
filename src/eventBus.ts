@@ -1,4 +1,3 @@
-// Simple event emitter implementation
 export type EventHandler<T> = (event: T) => void;
 
 export class EventBus<T> {
